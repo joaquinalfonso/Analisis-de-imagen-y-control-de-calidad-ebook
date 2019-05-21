@@ -9,5 +9,5 @@
 
 ## 2 PROGRAMACIÓN SOBRE:
 * [2.1 La tarjeta QPC/C40S + el modulo MDC40IM](2%20Programación%20sobre/2.1%20La%20tarjeta%20QPCC40S%20el%20modulo%20MDC40IM.md)
-* [2.2 TARJETA MULTIPROCESADORA PCI/C44S](2%20Programación%20sobre/2.2%20Tarjeta%20multiprocesadora%20PCIC44S.md)
-* [2.3 EJEMPLOS](2%20Programación%20sobre/2.3%20Ejemplos.md)
+* [2.2 Tarjeta multiprocesadora PCI/C44S](2%20Programación%20sobre/2.2%20Tarjeta%20multiprocesadora%20PCIC44S.md)
+* [2.3 Ejemplos](2%20Programación%20sobre/2.3%20Ejemplos.md)
