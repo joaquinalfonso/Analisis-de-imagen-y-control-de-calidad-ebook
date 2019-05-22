@@ -22,3 +22,8 @@
 * [4.2 Basado en distancia euclidea](4%20Algoritmos%20de%20clasificación%20de%20patrones/4.2%20Basado%20en%20distancia%20euclidea.md)
 * [4.3 Basado en distancia MAO](4%20Algoritmos%20de%20clasificación%20de%20patrones/4.3%20Basado%20en%20distancia%20MAO.md)
 * [4.4 Ejemplos](4%20Algoritmos%20de%20clasificación%20de%20patrones/4.4%20Ejemplos.md)
+
+## 5 Comunicación entre tarjetas
+
+* 5.0 Introducción
+* 5.1 Comunicación PC y DSP
