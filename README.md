@@ -43,3 +43,13 @@
 * [5.1 Comunicación PC y DSP](5%20Comunicación%20entre%20tarjetas/5.1%20Comunicación%20PC%20y%20DSP.md)
 * [5.2 Comunicación InterDSP](5%20Comunicación%20entre%20tarjetas/5.2%20Comunicación%20InterDSP.md)
 * [5.3 Comunicación DSP y otro Periférico (otra tarjeta)](5%20Comunicación%20entre%20tarjetas/5.3%20Comunicación%20DSP%20y%20otro%20Periférico%20(otra%20tarjeta).md)
+
+## 6 BATERIA DE PROGRAMAS
+
+* [6.1 Distribución de los programas]()
+* [6.2 Parámetros de los programas]()
+* [6.3 Ejecución en el procesador principal]()
+* [6.4 Ejecución en la tarjeta MDC40IM]()
+* [6.5 Ejecución en la tarjeta PCI/C44S]()
+* [6.6 Ejecución conjunta en las dos tarjetas]()
+* [6.7 Resultados obtenidos en la ejecución de todos los programas]()
