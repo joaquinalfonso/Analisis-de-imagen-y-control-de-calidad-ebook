@@ -44,7 +44,7 @@
 * [5.2 Comunicación InterDSP](5%20Comunicación%20entre%20tarjetas/5.2%20Comunicación%20InterDSP.md)
 * [5.3 Comunicación DSP y otro Periférico (otra tarjeta)](5%20Comunicación%20entre%20tarjetas/5.3%20Comunicación%20DSP%20y%20otro%20Periférico%20(otra%20tarjeta).md)
 
-## 6 BATERIA DE PROGRAMAS
+## 6 Batería de programas
 
 * [6.0 Introducción](6%20Batería%20de%20programas/6.0%20Introducción.md)
 * [6.1 Distribución de los programas](6%20Batería%20de%20programas/6.1%20Distribución%20de%20los%20programas.md)
