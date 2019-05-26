@@ -1,4 +1,5 @@
-# Proyecto Sistemas Informáticos. Universidad de Alicante Curso 1998-1999
+# Análisis de imagen y control de calidad
+#### Proyecto Sistemas Informáticos. Universidad de Alicante Curso 1998-1999
 
 ## Autores
 
@@ -7,7 +8,7 @@
 * ### Juan José Lorenzo Quintanilla
 * ### Joaquín Alfonso González
 
-# Análisis de imagen y control de calidad
+---
 
 ## 1 Introducción
 
