@@ -20,7 +20,7 @@ Las tareas que debe desempeñar el sistema son las siguientes:
 * Procesamiento de los datos adquiridos.
 * Manejo de los actuadores que intervengan en el proceso.
 
-    ![](./images/imp_1.png "")
+    ![](./images/images/Imp_1.png "Descripción del sistema") 
 
 Para describir completamente el sistema que queremos implantar lo dividiremos en sus componentes físicas y lógicas, es decir la parte Hardware y la parte Software. La parte Hardware nos proporcionará la interactuación tanto a la entrada como a la salida del Sistema. La parte Software nos permitirá el tratamiento de la información adquirida así como la toma de decisiones en cada situación.
 
@@ -28,7 +28,7 @@ Para describir completamente el sistema que queremos implantar lo dividiremos en
 
 Los componentes básicos de la parte Física o Hardware del sistema serán los siguientes:
 
-![](./images/imp_2.png "")
+![](./images/Imp_2.png "")
 
 * **Módulo de Adquisión de Imágenes.**
 
@@ -42,7 +42,7 @@ Los componentes básicos de la parte Física o Hardware del sistema serán los s
 
     El Módulo de Posicionamiento/Actuación es el encargado de proporcionar las Salidas del sistema, será el encargado de marcar aquellas zonas de las telas que consideremos como defectuosas, tomará los resultados del procesamiento de la imagen y si esta tiene algún defecto, se situará sobre el mismo y lo marcara para su posterior descarte.
 
-    ![](./images/imp_3.png "")
+    ![](./images/Imp_3.png "")
 
 ### 2.2 Subsistema Software o Lógico
 
@@ -134,11 +134,11 @@ En la misma línea, sería también conveniente asegurar que no se van a produci
 
 En lo que a la posición de los distintos elementos que conforman el sistema se refiere, lo mejor es realizar un dibujo ilustrativo y sobre él, dar las explicaciones oportunas:
 
-![](./images/imp_4.png "")
+![](./images/Imp_4.png "")
 
 Vista superior del sistema
 
-![](./images/imp_5.png "")
+![](./images/Imp_5.png "")
 
 Vista lateral del sistema
 
@@ -171,7 +171,7 @@ Para una mayor claridad y comprensión, vamos a comentar las distintas opciones:
 
 Se compone de un menú con 5 opciones en la parte izquierda de la pantalla y, en la parte derecha, la última imagen capturada dividida en ventanas con la clasificación correspondiente de cada una.
 
-![](./images/imp_6.png "")
+![](./images/Imp_6.png "")
 
 Las ventanas tachadas con X indican que esas zonas de la imagen (de la tela) han sido clasificadas como defectuosas. El resto se consideran ventanas sin defectos.
 
