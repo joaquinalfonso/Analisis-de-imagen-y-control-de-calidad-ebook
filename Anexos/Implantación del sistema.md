@@ -211,7 +211,7 @@ También hay que señalar que estas opciones van a suponer cambios internos del 
 
 ## 6 Presupuesto
 
-### 6.1 COMPONENTES HARDWARE
+### 6.1 Componentes hardware
 
 |Componente|Precio|
 |:---|---:|
@@ -222,7 +222,7 @@ También hay que señalar que estas opciones van a suponer cambios internos del 
 | Posicionador | ? |
 | Total Componentes Hardware | 2.268.995 pts |
 
-### 6.2 COMPONENTES SOFTWARE
+### 6.2 Componentes software
 
 |Componente|Precio|
 |:---|---:|
