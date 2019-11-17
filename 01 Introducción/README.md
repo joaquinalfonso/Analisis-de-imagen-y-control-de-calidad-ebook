@@ -1,6 +1,5 @@
 ## Análisis de imagen y control de calidad
 
-
 # 1 Introducción
 
 * [1.1 Necesidad del Control de Calidad y Automatización en la Industria](1.1%20Necesidad%20del%20Control%20de%20Calidad%20y%20Automatización%20en%20la%20Industria.md)
