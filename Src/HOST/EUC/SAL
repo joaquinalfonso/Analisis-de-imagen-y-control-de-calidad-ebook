@@ -1,0 +1,75 @@
+Tama¤o de Ventana 64,64
+Planos: 5
+Limites:
+-1 32 64 128 192 255 
+Piezas
+0 1 0 0 0 
+Ancho: 512 - Alto: 512
+Patrones de ENTRENAMIENTO.
+Num. Patrones: 64
+Dimension: 5
+000 Vec: 005  Dist: 0.001957  Etiq: 7
+001 Vec: 005  Dist: 0.001957  Etiq: 7
+002 Vec: 005  Dist: 0.001957  Etiq: 7
+003 Vec: 005  Dist: 0.001957  Etiq: 7
+004 Vec: 005  Dist: 0.001957  Etiq: 7
+005 Vec: 005  Dist: 0.001957  Etiq: 7
+006 Vec: 005  Dist: 0.001957  Etiq: 7
+007 Vec: 005  Dist: 0.001957  Etiq: 7
+008 Vec: 005  Dist: 0.001957  Etiq: 7
+009 Vec: 005  Dist: 0.001957  Etiq: 7
+010 Vec: 005  Dist: 0.001957  Etiq: 7
+011 Vec: 005  Dist: 0.272731  Etiq: 7
+012 Vec: 005  Dist: 0.001957  Etiq: 7
+013 Vec: 005  Dist: 0.001957  Etiq: 7
+014 Vec: 005  Dist: 0.001957  Etiq: 7
+015 Vec: 005  Dist: 0.001957  Etiq: 7
+016 Vec: 005  Dist: 0.001957  Etiq: 7
+017 Vec: 005  Dist: 0.001957  Etiq: 7
+018 Vec: 005  Dist: 0.001957  Etiq: 7
+019 Vec: 006  Dist: 0.497549  Etiq: 7
+020 Vec: 005  Dist: 0.001957  Etiq: 7
+021 Vec: 005  Dist: 0.001957  Etiq: 7
+022 Vec: 005  Dist: 0.001957  Etiq: 7
+023 Vec: 005  Dist: 0.001957  Etiq: 7
+024 Vec: 005  Dist: 0.001957  Etiq: 7
+025 Vec: 005  Dist: 0.001957  Etiq: 7
+026 Vec: 005  Dist: 0.001957  Etiq: 7
+027 Vec: 005  Dist: 0.192773  Etiq: 7
+028 Vec: 005  Dist: 0.001957  Etiq: 7
+029 Vec: 005  Dist: 0.001957  Etiq: 7
+030 Vec: 005  Dist: 0.001957  Etiq: 7
+031 Vec: 005  Dist: 0.001957  Etiq: 7
+032 Vec: 005  Dist: 0.097602  Etiq: 7
+033 Vec: 006  Dist: 0.706969  Etiq: 7
+034 Vec: 006  Dist: 0.706969  Etiq: 7
+035 Vec: 006  Dist: 0.706969  Etiq: 7
+036 Vec: 006  Dist: 0.679690  Etiq: 7
+037 Vec: 005  Dist: 0.001957  Etiq: 7
+038 Vec: 005  Dist: 0.001957  Etiq: 7
+039 Vec: 005  Dist: 0.001957  Etiq: 7
+040 Vec: 005  Dist: 0.235009  Etiq: 7
+041 Vec: 006  Dist: 1.413494  Etiq: 7
+042 Vec: 006  Dist: 1.413494  Etiq: 7
+043 Vec: 006  Dist: 1.413494  Etiq: 7
+044 Vec: 006  Dist: 1.390510  Etiq: 7
+045 Vec: 005  Dist: 0.001957  Etiq: 7
+046 Vec: 005  Dist: 0.001957  Etiq: 7
+047 Vec: 005  Dist: 0.001957  Etiq: 7
+048 Vec: 005  Dist: 0.182950  Etiq: 7
+049 Vec: 006  Dist: 1.244406  Etiq: 7
+050 Vec: 006  Dist: 1.244406  Etiq: 7
+051 Vec: 006  Dist: 1.244406  Etiq: 7
+052 Vec: 006  Dist: 1.214966  Etiq: 7
+053 Vec: 005  Dist: 0.001957  Etiq: 7
+054 Vec: 005  Dist: 0.001957  Etiq: 7
+055 Vec: 005  Dist: 0.001957  Etiq: 7
+056 Vec: 005  Dist: 0.001957  Etiq: 7
+057 Vec: 005  Dist: 0.001957  Etiq: 7
+058 Vec: 005  Dist: 0.001957  Etiq: 7
+059 Vec: 005  Dist: 0.001957  Etiq: 7
+060 Vec: 005  Dist: 0.001957  Etiq: 7
+061 Vec: 005  Dist: 0.001957  Etiq: 7
+062 Vec: 005  Dist: 0.001957  Etiq: 7
+063 Vec: 005  Dist: 0.001957  Etiq: 7
+Tiempo de proceso : 0.820000

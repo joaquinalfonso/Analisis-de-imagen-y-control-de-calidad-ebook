@@ -1,0 +1,7 @@
+En estos directorios estan implementado los clasificadores 
+en sus versiones Euclidea y Mao implementados sobre el PC, 
+sin utilizar ninguna tarjeta.
+
+	host <imagen.bmp> <parametros_CM> <patrones>
+
+

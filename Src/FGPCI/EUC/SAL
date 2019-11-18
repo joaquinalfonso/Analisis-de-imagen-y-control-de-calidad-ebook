@@ -1,0 +1,82 @@
+Tama¤o de Ventana 64,64
+Planos: 5
+Limites:
+-1 32 64 128 192 255 
+Piezas
+0 1 0 0 0 
+Inicializando DSP...
+Abriendo procesador...
+Cargando y ejecutando programa COFF...
+Cargando y Ejecutando programa DSP1
+Cargando y Ejecutando programa DSP2
+
+Paso de Parametros del C.M.
+Ancho: 512 - Alto: 512
+Patrones de ENTRENAMIENTO.
+Num. Patrones: 64
+Dimension: 5
+000 Vec: 40  Dist: 0.011746  Etiq: 7
+001 Vec: 57  Dist: 0.002016  Etiq: 7
+002 Vec: 04  Dist: 0.001224  Etiq: 7
+003 Vec: 31  Dist: 0.004982  Etiq: 7
+004 Vec: 29  Dist: 0.002578  Etiq: 7
+005 Vec: 43  Dist: 0.000528  Etiq: 7
+006 Vec: 28  Dist: 0.000126  Etiq: 7
+007 Vec: 40  Dist: 0.015562  Etiq: 7
+008 Vec: 39  Dist: 0.029146  Etiq: 7
+009 Vec: 39  Dist: 0.012136  Etiq: 7
+010 Vec: 46  Dist: 0.001220  Etiq: 7
+011 Vec: 23  Dist: 0.000706  Etiq: 7
+012 Vec: 40  Dist: 0.001332  Etiq: 7
+013 Vec: 31  Dist: 0.004886  Etiq: 7
+014 Vec: 38  Dist: 0.007162  Etiq: 7
+015 Vec: 31  Dist: 0.003349  Etiq: 7
+016 Vec: 39  Dist: 0.157323  Etiq: 7
+017 Vec: 39  Dist: 0.106993  Etiq: 7
+018 Vec: 39  Dist: 0.044182  Etiq: 7
+019 Vec: 40  Dist: 0.009387  Etiq: 7
+020 Vec: 40  Dist: 0.001168  Etiq: 7
+021 Vec: 39  Dist: 0.010176  Etiq: 7
+022 Vec: 46  Dist: 0.001176  Etiq: 7
+023 Vec: 39  Dist: 0.040404  Etiq: 7
+024 Vec: 15  Dist: 0.002019  Etiq: 7
+025 Vec: 29  Dist: 0.002356  Etiq: 7
+026 Vec: 39  Dist: 0.014862  Etiq: 7
+027 Vec: 31  Dist: 0.005218  Etiq: 7
+028 Vec: 29  Dist: 0.001756  Etiq: 7
+029 Vec: 57  Dist: 0.001996  Etiq: 7
+030 Vec: 31  Dist: 0.007412  Etiq: 7
+031 Vec: 40  Dist: 0.001851  Etiq: 7
+032 Vec: 40  Dist: 0.002489  Etiq: 7
+033 Vec: 39  Dist: 0.022527  Etiq: 7
+034 Vec: 39  Dist: 0.012657  Etiq: 7
+035 Vec: 40  Dist: 0.003484  Etiq: 7
+036 Vec: 16  Dist: 0.000247  Etiq: 7
+037 Vec: 40  Dist: 0.005214  Etiq: 7
+038 Vec: 39  Dist: 0.014423  Etiq: 7
+039 Vec: 39  Dist: 0.085505  Etiq: 7
+040 Vec: 40  Dist: 0.008353  Etiq: 7
+041 Vec: 39  Dist: 0.030608  Etiq: 7
+042 Vec: 57  Dist: 0.001996  Etiq: 7
+043 Vec: 43  Dist: 0.000616  Etiq: 7
+044 Vec: 33  Dist: 0.002023  Etiq: 7
+045 Vec: 40  Dist: 0.002117  Etiq: 7
+046 Vec: 40  Dist: 0.001248  Etiq: 7
+047 Vec: 40  Dist: 0.001135  Etiq: 7
+048 Vec: 15  Dist: 0.001154  Etiq: 7
+049 Vec: 40  Dist: 0.010485  Etiq: 7
+050 Vec: 31  Dist: 0.007140  Etiq: 7
+051 Vec: 31  Dist: 0.003328  Etiq: 7
+052 Vec: 12  Dist: 0.001197  Etiq: 7
+053 Vec: 32  Dist: 0.005491  Etiq: 7
+054 Vec: 31  Dist: 0.003260  Etiq: 7
+055 Vec: 31  Dist: 0.003024  Etiq: 7
+056 Vec: 36  Dist: 0.000170  Etiq: 7
+057 Vec: 02  Dist: 0.000293  Etiq: 7
+058 Vec: 39  Dist: 0.013712  Etiq: 7
+059 Vec: 39  Dist: 0.014277  Etiq: 7
+060 Vec: 39  Dist: 0.022558  Etiq: 7
+061 Vec: 39  Dist: 0.079096  Etiq: 7
+062 Vec: 29  Dist: 0.000872  Etiq: 7
+063 Vec: 39  Dist: 0.017837  Etiq: 7
+Tiempo de Proceso: 3.240000

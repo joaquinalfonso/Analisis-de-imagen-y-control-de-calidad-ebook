@@ -1,0 +1,83 @@
+Cargando y Ejecutando programa DSP1
+Cargando y Ejecutando programa DSP2
+Tama¤o de Ventana 64,64
+Planos: 5
+Limites:
+-1 32 64 96 128 255 
+Piezas
+0 1 1 1 0 
+Escribiendo parametros de CM en la Mem Compartida.
+Darle paso al procesador 1.
+Esperando lectura PARAMETROS CM procesador 1.
+Ancho: 512 - Alto: 512
+Patrones de ENTRENAMIENTO.
+Num. Patrones: 64
+Dimension: 5
+Escribiendo patrones Entrenamiento en la Mem Compartida.
+Darles paso a los dos procesadores
+Tiempo de Procesamiento: 4.83000 seg.
+000 Vec: 05  Dist: 0.001957  Etiq: 7
+001 Vec: 05  Dist: 0.001957  Etiq: 7
+002 Vec: 05  Dist: 0.001957  Etiq: 7
+003 Vec: 05  Dist: 0.001957  Etiq: 7
+004 Vec: 05  Dist: 0.001957  Etiq: 7
+005 Vec: 05  Dist: 0.001957  Etiq: 7
+006 Vec: 05  Dist: 0.001957  Etiq: 7
+007 Vec: 05  Dist: 0.001957  Etiq: 7
+008 Vec: 05  Dist: 0.001957  Etiq: 7
+009 Vec: 05  Dist: 0.001957  Etiq: 7
+010 Vec: 05  Dist: 0.001957  Etiq: 7
+011 Vec: 05  Dist: 0.001957  Etiq: 7
+012 Vec: 05  Dist: 0.001957  Etiq: 7
+013 Vec: 05  Dist: 0.001957  Etiq: 7
+014 Vec: 05  Dist: 0.001957  Etiq: 7
+015 Vec: 05  Dist: 0.001957  Etiq: 7
+016 Vec: 05  Dist: 0.001357  Etiq: 7
+017 Vec: 08  Dist: 0.000241  Etiq: 7
+018 Vec: 01  Dist: 0.000759  Etiq: 7
+019 Vec: 05  Dist: 0.001957  Etiq: 7
+020 Vec: 05  Dist: 0.001957  Etiq: 7
+021 Vec: 05  Dist: 0.001359  Etiq: 7
+022 Vec: 05  Dist: 0.001957  Etiq: 7
+023 Vec: 05  Dist: 0.001342  Etiq: 7
+024 Vec: 05  Dist: 0.001957  Etiq: 7
+025 Vec: 05  Dist: 0.001957  Etiq: 7
+026 Vec: 05  Dist: 0.001957  Etiq: 7
+027 Vec: 05  Dist: 0.001957  Etiq: 7
+028 Vec: 05  Dist: 0.001957  Etiq: 7
+029 Vec: 05  Dist: 0.001957  Etiq: 7
+030 Vec: 05  Dist: 0.001957  Etiq: 7
+031 Vec: 05  Dist: 0.001957  Etiq: 7
+032 Vec: 05  Dist: 0.000755  Etiq: 7
+033 Vec: 05  Dist: 0.001957  Etiq: 7
+034 Vec: 05  Dist: 0.001360  Etiq: 7
+035 Vec: 05  Dist: 0.001957  Etiq: 7
+036 Vec: 05  Dist: 0.001957  Etiq: 7
+037 Vec: 05  Dist: 0.001957  Etiq: 7
+038 Vec: 05  Dist: 0.001957  Etiq: 7
+039 Vec: 05  Dist: 0.001957  Etiq: 7
+040 Vec: 05  Dist: 0.001364  Etiq: 7
+041 Vec: 05  Dist: 0.000750  Etiq: 7
+042 Vec: 05  Dist: 0.001957  Etiq: 7
+043 Vec: 05  Dist: 0.001957  Etiq: 7
+044 Vec: 05  Dist: 0.001957  Etiq: 7
+045 Vec: 05  Dist: 0.001957  Etiq: 7
+046 Vec: 05  Dist: 0.001957  Etiq: 7
+047 Vec: 05  Dist: 0.001957  Etiq: 7
+048 Vec: 05  Dist: 0.001368  Etiq: 7
+049 Vec: 05  Dist: 0.001957  Etiq: 7
+050 Vec: 05  Dist: 0.001957  Etiq: 7
+051 Vec: 05  Dist: 0.001957  Etiq: 7
+052 Vec: 05  Dist: 0.001957  Etiq: 7
+053 Vec: 05  Dist: 0.001957  Etiq: 7
+054 Vec: 05  Dist: 0.001957  Etiq: 7
+055 Vec: 05  Dist: 0.001367  Etiq: 7
+056 Vec: 05  Dist: 0.001957  Etiq: 7
+057 Vec: 05  Dist: 0.001957  Etiq: 7
+058 Vec: 05  Dist: 0.001957  Etiq: 7
+059 Vec: 05  Dist: 0.001957  Etiq: 7
+060 Vec: 05  Dist: 0.001957  Etiq: 7
+061 Vec: 00  Dist: 0.000497  Etiq: 7
+062 Vec: 05  Dist: 0.001369  Etiq: 7
+063 Vec: 05  Dist: 0.001957  Etiq: 7
+Fin Ejecucion.

@@ -1,0 +1,5 @@
+Este directorio contiene el programa CLMAO_H.exe que implementa el 
+clasificador por distancia MAO para la tarjeta QPCC40S
+
+	uso clmao_h <fic_entrenamiento> <fic_test> 
+

@@ -1,0 +1,726 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 096A7H 096A8H _TEXT              CODE
+ 096B0H 0BE26H 02777H EMU_PROG           CODE
+ 0BE30H 0C401H 005D2H E87_PROG           CODE
+ 0C410H 0C410H 00000H _FARDATA           FAR_DATA
+ 0C410H 0C410H 00000H _FARBSS            FAR_BSS
+ 0C410H 0C410H 00000H _OVERLAY_          OVRINFO
+ 0C410H 0C410H 00000H _1STUB_            STUBSEG
+ 0C410H 0D12BH 00D1CH _DATA              DATA
+ 0D12CH 0D12FH 00004H _CVTSEG            DATA
+ 0D130H 0D13BH 0000CH _SCNSEG            DATA
+ 0D13CH 0D13CH 00000H _CONST             CONST
+ 0D13CH 0D159H 0001EH _INIT_             INITDATA
+ 0D15AH 0D15AH 00000H _INITEND_          INITDATA
+ 0D15AH 0D165H 0000CH _EXIT_             EXITDATA
+ 0D166H 0D166H 00000H _EXITEND_          EXITDATA
+ 0D166H 0E49BH 01336H _BSS               BSS
+ 0E49CH 0E49CH 00000H _BSSEND            BSSEND
+ 0E4A0H 0E51FH 00080H _STACK             STACK
+
+  Address         Publics by Name
+
+ 0000:1C88       operator delete(void far*)
+ 0000:1C68       operator delete(void near*)
+ 0000:1CAC       operator delete[](void far*)
+ 0000:1C78       operator delete[](void near*)
+ 0000:2189       operator new(unsigned int)
+ 0000:216C       set_new_handler(void(near*)())
+ 0000:300E       set_terminate(void(near*)())
+ 0000:30D6       set_unexpected(void(near*)())
+ 0000:8A4C       string::string(const char near*)
+ 0000:8919       string::string(const string near&)
+ 0000:8CAD       string::~string()
+ 0000:8D3F       string::assert_element(unsigned int) const
+ 0000:8E03       string::assert_index(unsigned int) const
+ 0C41:0CB6       string::case_sensitive
+ 0C41:0CC0       string::freeboard
+ 0C41:0CBC       string::initial_capac
+ 0000:9362       string::initial_capacity(unsigned int)
+ 0000:93A9       string::max_waste(unsigned int)
+ 0C41:0CB8       string::paranoid_check
+ 0C41:0CBE       string::resize_inc
+ 0000:937F       string::resize_increment(unsigned int)
+ 0000:930B       string::set_case_sensitive(int)
+ 0000:9328       string::set_paranoid_check(int)
+ 0C41:0CBA       string::skip_white
+ 0000:9345       string::skip_whitespace(int)
+ 0000:3006       terminate()
+ 0000:8F5B       tstringref::tstringref(const char near*,unsigned int,const char near*,unsigned int,unsigned int)
+ 0000:900B       tstringref::~tstringref()
+ 0000:90C7       tstringref::check_freeboard()
+ 0000:912C       tstringref::grow_to(unsigned int)
+ 0000:9064       tstringref::reserve(unsigned int)
+ 0000:917E       tstringref::round_capacity(unsigned int)
+ 0000:91CB       tstringref::splice(unsigned int,unsigned int,const char near*,unsigned int)
+ 0000:8EC7       tsubstring::assert_element(unsigned int) const
+ 0000:57A4       typeidname(tpid far*)
+ 0000:81D3       type_info::operator =(const type_info near&)
+ 0000:8178       type_info::type_info(const type_info near&)
+ 0000:81DF       type_info::~type_info()
+ 0000:8207       type_info::operator ==(const type_info near&) const
+ 0000:822A       type_info::operator !=(const type_info near&) const
+ 0000:8244       type_info::before(const type_info near&) const
+ 0000:82A6       type_info::name() const
+ 0000:30CE       unexpected()
+ 0000:5266       xalloc::xalloc(const string near&,unsigned int)
+ 0000:52CB       xalloc::raise()
+ 0000:5668       xmsg::operator =(const xmsg near&)
+ 0000:5538       xmsg::xmsg(const xmsg near&)
+ 0000:549C       xmsg::xmsg(const string near&)
+ 0000:55B2       xmsg::~xmsg()
+ 0000:5602       xmsg::raise()
+ 0000:2114       xnew_handler()
+ 0000:6D15       _catchcleanup()
+ 0000:65F0       _rethrowexception(unsigned int,unsigned char near*)
+ 0000:65A0       _throwexception(void far*,void far*,void far*,void far*,unsigned int,unsigned int,unsigned int,unsigned char near*)
+ 0000:85AD       __dynamiccast(void far*,void far*,void far*,void far*,int)
+ 0000:314C       __getpolymorphicdtc(void far*,unsigned int)
+ 0000:31AE       __getpolymorphicdtcfar(void far*,unsigned int)
+ 0000:82BF       __gettypeinfo(void far*,void far*,void far*,void far*)
+ 0000:5775       __set_debugger_callbacks(int,void(near*)(char near*,unsigned long),void(near*)(unsigned long),void(near*)(void far*),void(near*)(unsigned long),void(near*)(unsigned long))
+ 0000:816A       __throwexceptionname()
+ 0000:814E       __throwfilename()
+ 0000:815C       __throwlinenumber()
+ 0C41:0000       DATASEG@
+ 0000:028F       DGROUP@
+ 096B:2152       e086_Entry
+ 096B:26E0       e086_Shortcut
+ 0BE3:0306       e087_Entry
+ 0BE3:03C6       e087_Shortcut
+ 0BE3:0430       e087_Trap
+ 0000:FE32  Abs  FIARQQ
+ 0000:0E32  Abs  FICRQQ
+ 0000:5C32  Abs  FIDRQQ
+ 0000:1632  Abs  FIERQQ
+ 0000:0632  Abs  FISRQQ
+ 0000:A23D  Abs  FIWRQQ
+ 0000:4000  Abs  FJARQQ
+ 0000:C000  Abs  FJCRQQ
+ 0000:8000  Abs  FJSRQQ
+ 0000:1DE9       F_LDIV@
+ 0000:1DF8       F_LMOD@
+ 0000:1DF0       F_LUDIV@
+ 0000:1E00       F_LUMOD@
+ 0000:1E97       F_LXLSH@
+ 0000:1EB8       F_PADD@
+ 0000:1EE7       F_PSUB@
+ 0000:1F1B       F_SPUSH@
+ 0000:1DE9       LDIV@
+ 0000:1DF8       LMOD@
+ 0000:1DF0       LUDIV@
+ 0000:1E00       LUMOD@
+ 0000:1E97       LXLSH@
+ 0000:1DE6       N_LDIV@
+ 0000:1DF5       N_LMOD@
+ 0000:1DED       N_LUDIV@
+ 0000:1DFD       N_LUMOD@
+ 0000:1E94       N_LXLSH@
+ 0000:2371       N_LXMUL@
+ 0000:1EB5       N_PADD@
+ 0000:2388       N_PCMP@
+ 0000:1EE4       N_PSUB@
+ 0000:1F15       N_SPUSH@
+ 0000:1EB8       PADD@
+ 0000:1EE7       PSUB@
+ 0000:1F1B       SPUSH@
+ 0000:1C30       _abort
+ 0C41:0E06       _altoBMP
+ 0C41:0E02       _anchoBMP
+ 0000:1C40       _atexit
+ 0000:32A8       _brk
+ 0C41:0D5C       _cabeceraBMP
+ 0000:32CC       _calloc
+ 0000:3F16       _close
+ 0000:0BC9       _CMyClasif
+ 0C41:1E10       _contventana
+ 0C41:0E0A       _dim
+ 0000:3F72       _eof
+ 0C41:008E       _errno
+ 0000:1D73       _exit
+ 0000:34BD       _farfree
+ 0000:35C7       _farmalloc
+ 0000:3721       _farrealloc
+ 0C41:0D56       _fbmp
+ 0000:3FEF       _fclose
+ 0C41:0D5A       _fentr
+ 0000:4084       _fflush
+ 0000:4746       _fgetc
+ 0000:481A       _fgetchar
+ 0000:4115       _flushall
+ 0000:430B       _fopen
+ 0C41:0D58       _fparam
+ 0000:432E       _fprintf
+ 0000:4B8F       _fputc
+ 0000:4CD4       _fputchar
+ 0000:4348       _fputs
+ 0000:447D       _fread
+ 0000:3922       _free
+ 0000:44CB       _fscanf
+ 0000:455C       _fseek
+ 0000:45C5       _ftell
+ 0000:0293       _GetByte
+ 0000:02CB       _GetDword
+ 0000:1DBE       _getvect
+ 0000:02AF       _GetWord
+ 0000:38F7       _ioctl
+ 0000:1F8E       _isatty
+ 0000:07AF       _LecturaParametros
+ 0000:06E9       _LeerVentana
+ 0C41:0DEC       _LimitePlanos
+ 0000:2AC6       _localeconv
+ 0000:2041       _lseek
+ 0000:0ED5       _main
+ 0000:39F1       _malloc
+ 0000:4827       _memcpy
+ 0000:48D2       _memmove
+ 0000:486E       _memset
+ 0000:4889       _movmem
+ 0C41:0E0C       _nPEnt
+ 0C41:0DE8       _NumPlanos
+ 0000:09B0       _ObtenerPatEntrenamiento
+ 0000:0955       _ObtenerTamanyoImagenBMP
+ 0000:0ACD       _ObtenerVentana
+ 0000:4920       _open
+ 0C41:0E0E       _pEntr
+ 0000:4AEB       _perror
+ 0C41:0DEE       _Piezas
+ 0000:1AF0       _pow10
+ 0000:4B59       _printf
+ 0000:3E80       _raise
+ 0000:675F       _RaiseException
+ 0000:02EA       _ReadBmpHeader
+ 0000:3B48       _realloc
+ 0000:32B8       _sbrk
+ 0000:88EB       _setblock
+ 0000:4846       _setmem
+ 0000:4F62       _setvbuf
+ 0000:1DD1       _setvect
+ 0000:3D8D       _signal
+ 0000:1B21       _sqrt
+ 0000:5047       _strcat
+ 0000:5080       _strlen
+ 0000:509C       _ungetc
+ 0000:2ACE       _unlink
+ 0C41:0E10       _V
+ 0000:0AF2       _VecinoMasCercano
+ 0C41:0DE0       _Ventana
+ 0C41:1E18       _xVen
+ 0C41:1E14       _yVen
+ 0C41:09C8       __8086
+ 0C41:02B0       __8087
+ 0000:1BEF       __abort
+ 0000:1000  Abs  __AHINCR
+ 0000:000C  Abs  __AHSHIFT
+ 0C41:0CA8       __argc
+ 0C41:0CAA       __argv
+ 0C41:05A0       __atexitcnt
+ 0C41:1E1C       __atexittbl
+ 0000:3825       __brk
+ 0C41:009A       __brklvl
+ 0C41:007E       __C0argc
+ 0C41:0080       __C0argv
+ 0C41:0082       __C0environ
+ 0000:1D9C       __cexit
+ 0000:015B       __checknull
+ 0000:0148       __cleanup
+ 0000:3F62       __close
+ 0C41:0816       __ctype
+ 0000:80FE       __CurrExcContext
+ 0000:0000  Abs  __cvtfak
+ 0000:1DAE       __c_exit
+ 0C41:02C4       __default87
+ 0C41:1E6C       __DestructorCountPtr
+ 0C41:071A       __doserrno
+ 0000:1F7A       __DOSERROR
+ 0C41:071C       __dosErrorToSV
+ 0000:1CC0       __dos_getfileattr
+ 0000:1CE1       __dos_setfileattr
+ 0C41:0470       __emu
+ 0C41:0084       __envLng
+ 0C41:0086       __envseg
+ 0C41:0088       __envSize
+ 0000:3214       __ExceptInit
+ 0000:73EF       __ExceptionHandler
+ 0C41:0090       __Exception_list
+ 0000:1D86       __exit
+ 0C41:05A2       __exitbuf
+ 0C41:05A4       __exitfopen
+ 0C41:05A6       __exitopen
+ 0000:4731       __fgetc
+ 0C41:09CC       __first
+ 0000:8087  Abs  __floatconvert
+ 0000:95E4       __fmemcmp
+ 0000:960C       __fmemcpy
+ 0000:9656       __fmemset
+ 0C41:0712       __fmode
+ 0000:19A2       __fperror
+ 0C41:0716       __fpstklen
+ 0000:119F       __fpuint
+ 0000:4B74       __fputc
+ 0000:4CE9       __FPUTN
+ 0000:9630       __fsetmem
+ 0000:9678       __fstrcmp
+ 0000:42CA       __GETFP
+ 0000:6714       __Global_unwind
+ 0C41:0096       __heapbase
+ 0C41:0718       __heaplen
+ 0C41:009E       __heaptop
+ 0C41:02CA       __huge_dble
+ 0C41:02C6       __huge_flt
+ 0C41:02D2       __huge_ldble
+ 0C41:02DC       __indefinite
+ 0C41:006E       __Int0Vector
+ 0C41:0072       __Int4Vector
+ 0C41:0076       __Int5Vector
+ 0C41:007A       __Int6Vector
+ 0000:1F3C       __IOERROR
+ 0C41:09CE       __last
+ 0C41:02C1       __LDT
+ 0000:11A3       __LDTRUNC
+ 0C41:0918       __localeconvention
+ 0000:731C       __Local_unwind
+ 0000:1FA3       __LONGTOA
+ 0000:1AFB       __matherr
+ 0C41:02EA       __mathwhy
+ 0000:206E       __MKNAME
+ 0000:0291       __MMODEL
+ 0C41:0784       __new_handler
+ 0000:4746       __Nfgetc
+ 0C41:06E8       __nfile
+ 0C41:0714       __notUmask
+ 0000:509C       __Nungetc
+ 0000:4AD7       __open
+ 0C41:06EA       __openfd
+ 0000:421E       __OPENFP
+ 0C41:008C       __osmajor
+ 0C41:008D       __osminor
+ 0C41:008C       __osversion
+ 0000:1A27       __POW10
+ 0C41:02C0       __protected
+ 0C41:008A       __psp
+ 0000:23A9       __read
+ 0000:87C4       __REALCVT
+ 0C41:0D1C       __RealCvtVector
+ 0000:01DD       __restorezero
+ 0000:733C       __Return_unwind
+ 0C41:09D0       __rover
+ 0000:3EF7       __rtl_chmod
+ 0000:3F40       __rtl_close
+ 0000:4A86       __rtl_open
+ 0000:5211       __rtl_write
+ 0000:3868       __sbrk
+ 0000:23D9       __scanner
+ 0000:87D0       __scanpop
+ 0000:87CC       __scanrslt
+ 0000:87C8       __scantod
+ 0C41:0D20       __ScanTodVector
+ 0000:28AC       __scantol
+ 0000:0000  Abs  __setargv__
+ 0000:2A2B       __setupio
+ 0C41:0814       __stklen
+ 0000:1C04       __stpcpy
+ 0C41:05A8       __streams
+ 0C41:09EE       __sys_errlist
+ 0C41:0A4E       __sys_nerr
+ 0000:0182       __terminate
+ 0C41:02E0       __tiny_ldble
+ 0000:20B1       __TMPNAM
+ 0000:0000  Abs  __turboCvt
+ 0000:8087  Abs  __turboFloat
+ 0000:2020       __UTOA
+ 0C41:008C       __version
+ 0000:2B00       __VPRINTER
+ 0000:524E       __write
+ 0000:1798       __XCVT
+ 0000:540B       __xfclose
+ 0000:5443       __xfflush
+ 0000:324D       ___brk
+ 0C41:0094       ___brklvl
+ 0000:306C       ___call_terminate
+ 0000:310C       ___call_unexpected
+ 0C41:09A8       ___CPPexceptionList
+ 0000:1D00       ___ErrorMessage
+ 0C41:09AC       ___exceptFlags
+ 0C41:1E6E       ___exceptionNameBuff
+ 0C41:09C6       ___exceptMemAllocVars
+ 0C41:09C4       ___exceptStaticBuffP
+ 0C41:1EEE       ___ExceptStaticXbuff
+ 0000:337D       ___first
+ 0000:10B8       ___fpreset
+ 0C41:0092       ___heapbase
+ 0000:2FB3       ___InitExceptBlock
+ 0000:5769       ___JumpToCatch__
+ 0000:337F       ___last
+ 0000:1B5E       ___matherr
+ 0000:4E9C       ___read
+ 0000:3381       ___rover
+ 0C41:09AE       ___savedDS
+ 0C41:09B0       ___savedSI
+ 0000:3273       ___sbrk
+ 0C41:1E6A       ___SignalPtr
+ 0C41:09B2       ___terminatePTR
+ 0C41:09BA       ___terminate_DS
+ 0C41:09C2       ___throwExceptionName
+ 0C41:09BE       ___throwFileName
+ 0C41:09C0       ___throwLineNumber
+ 0C41:09B6       ___unexpectdPTR
+ 0C41:09BC       ___unexpectd_DS
+ 0000:50EC       ___write
+ 0C41:0780       ___xalloc
+
+  Address         Publics by Value
+
+ 0000:0000  Abs  __setargv__
+ 0000:0000  Abs  __turboCvt
+ 0000:0000  Abs  __cvtfak
+ 0000:000C  Abs  __AHSHIFT
+ 0000:0632  Abs  FISRQQ
+ 0000:0E32  Abs  FICRQQ
+ 0000:1000  Abs  __AHINCR
+ 0000:1632  Abs  FIERQQ
+ 0000:4000  Abs  FJARQQ
+ 0000:5C32  Abs  FIDRQQ
+ 0000:8000  Abs  FJSRQQ
+ 0000:8087  Abs  __turboFloat
+ 0000:8087  Abs  __floatconvert
+ 0000:A23D  Abs  FIWRQQ
+ 0000:C000  Abs  FJCRQQ
+ 0000:FE32  Abs  FIARQQ
+ 0000:0148       __cleanup
+ 0000:015B       __checknull
+ 0000:0182       __terminate
+ 0000:01DD       __restorezero
+ 0000:028F       DGROUP@
+ 0000:0291       __MMODEL
+ 0000:0293       _GetByte
+ 0000:02AF       _GetWord
+ 0000:02CB       _GetDword
+ 0000:02EA       _ReadBmpHeader
+ 0000:06E9       _LeerVentana
+ 0000:07AF       _LecturaParametros
+ 0000:0955       _ObtenerTamanyoImagenBMP
+ 0000:09B0       _ObtenerPatEntrenamiento
+ 0000:0ACD       _ObtenerVentana
+ 0000:0AF2       _VecinoMasCercano
+ 0000:0BC9       _CMyClasif
+ 0000:0ED5       _main
+ 0000:10B8       ___fpreset
+ 0000:119F       __fpuint
+ 0000:11A3       __LDTRUNC
+ 0000:1798       __XCVT
+ 0000:19A2       __fperror
+ 0000:1A27       __POW10
+ 0000:1AF0       _pow10
+ 0000:1AFB       __matherr
+ 0000:1B21       _sqrt
+ 0000:1B5E       ___matherr
+ 0000:1BEF       __abort
+ 0000:1C04       __stpcpy
+ 0000:1C30       _abort
+ 0000:1C40       _atexit
+ 0000:1C68       operator delete(void near*)
+ 0000:1C78       operator delete[](void near*)
+ 0000:1C88       operator delete(void far*)
+ 0000:1CAC       operator delete[](void far*)
+ 0000:1CC0       __dos_getfileattr
+ 0000:1CE1       __dos_setfileattr
+ 0000:1D00       ___ErrorMessage
+ 0000:1D73       _exit
+ 0000:1D86       __exit
+ 0000:1D9C       __cexit
+ 0000:1DAE       __c_exit
+ 0000:1DBE       _getvect
+ 0000:1DD1       _setvect
+ 0000:1DE6       N_LDIV@
+ 0000:1DE9       LDIV@
+ 0000:1DE9       F_LDIV@
+ 0000:1DED       N_LUDIV@
+ 0000:1DF0       F_LUDIV@
+ 0000:1DF0       LUDIV@
+ 0000:1DF5       N_LMOD@
+ 0000:1DF8       F_LMOD@
+ 0000:1DF8       LMOD@
+ 0000:1DFD       N_LUMOD@
+ 0000:1E00       LUMOD@
+ 0000:1E00       F_LUMOD@
+ 0000:1E94       N_LXLSH@
+ 0000:1E97       LXLSH@
+ 0000:1E97       F_LXLSH@
+ 0000:1EB5       N_PADD@
+ 0000:1EB8       F_PADD@
+ 0000:1EB8       PADD@
+ 0000:1EE4       N_PSUB@
+ 0000:1EE7       F_PSUB@
+ 0000:1EE7       PSUB@
+ 0000:1F15       N_SPUSH@
+ 0000:1F1B       F_SPUSH@
+ 0000:1F1B       SPUSH@
+ 0000:1F3C       __IOERROR
+ 0000:1F7A       __DOSERROR
+ 0000:1F8E       _isatty
+ 0000:1FA3       __LONGTOA
+ 0000:2020       __UTOA
+ 0000:2041       _lseek
+ 0000:206E       __MKNAME
+ 0000:20B1       __TMPNAM
+ 0000:2114       xnew_handler()
+ 0000:216C       set_new_handler(void(near*)())
+ 0000:2189       operator new(unsigned int)
+ 0000:2371       N_LXMUL@
+ 0000:2388       N_PCMP@
+ 0000:23A9       __read
+ 0000:23D9       __scanner
+ 0000:28AC       __scantol
+ 0000:2A2B       __setupio
+ 0000:2AC6       _localeconv
+ 0000:2ACE       _unlink
+ 0000:2B00       __VPRINTER
+ 0000:2FB3       ___InitExceptBlock
+ 0000:3006       terminate()
+ 0000:300E       set_terminate(void(near*)())
+ 0000:306C       ___call_terminate
+ 0000:30CE       unexpected()
+ 0000:30D6       set_unexpected(void(near*)())
+ 0000:310C       ___call_unexpected
+ 0000:314C       __getpolymorphicdtc(void far*,unsigned int)
+ 0000:31AE       __getpolymorphicdtcfar(void far*,unsigned int)
+ 0000:3214       __ExceptInit
+ 0000:324D       ___brk
+ 0000:3273       ___sbrk
+ 0000:32A8       _brk
+ 0000:32B8       _sbrk
+ 0000:32CC       _calloc
+ 0000:337D       ___first
+ 0000:337F       ___last
+ 0000:3381       ___rover
+ 0000:34BD       _farfree
+ 0000:35C7       _farmalloc
+ 0000:3721       _farrealloc
+ 0000:3825       __brk
+ 0000:3868       __sbrk
+ 0000:38F7       _ioctl
+ 0000:3922       _free
+ 0000:39F1       _malloc
+ 0000:3B48       _realloc
+ 0000:3D8D       _signal
+ 0000:3E80       _raise
+ 0000:3EF7       __rtl_chmod
+ 0000:3F16       _close
+ 0000:3F40       __rtl_close
+ 0000:3F62       __close
+ 0000:3F72       _eof
+ 0000:3FEF       _fclose
+ 0000:4084       _fflush
+ 0000:4115       _flushall
+ 0000:421E       __OPENFP
+ 0000:42CA       __GETFP
+ 0000:430B       _fopen
+ 0000:432E       _fprintf
+ 0000:4348       _fputs
+ 0000:447D       _fread
+ 0000:44CB       _fscanf
+ 0000:455C       _fseek
+ 0000:45C5       _ftell
+ 0000:4731       __fgetc
+ 0000:4746       __Nfgetc
+ 0000:4746       _fgetc
+ 0000:481A       _fgetchar
+ 0000:4827       _memcpy
+ 0000:4846       _setmem
+ 0000:486E       _memset
+ 0000:4889       _movmem
+ 0000:48D2       _memmove
+ 0000:4920       _open
+ 0000:4A86       __rtl_open
+ 0000:4AD7       __open
+ 0000:4AEB       _perror
+ 0000:4B59       _printf
+ 0000:4B74       __fputc
+ 0000:4B8F       _fputc
+ 0000:4CD4       _fputchar
+ 0000:4CE9       __FPUTN
+ 0000:4E9C       ___read
+ 0000:4F62       _setvbuf
+ 0000:5047       _strcat
+ 0000:5080       _strlen
+ 0000:509C       __Nungetc
+ 0000:509C       _ungetc
+ 0000:50EC       ___write
+ 0000:5211       __rtl_write
+ 0000:524E       __write
+ 0000:5266       xalloc::xalloc(const string near&,unsigned int)
+ 0000:52CB       xalloc::raise()
+ 0000:540B       __xfclose
+ 0000:5443       __xfflush
+ 0000:549C       xmsg::xmsg(const string near&)
+ 0000:5538       xmsg::xmsg(const xmsg near&)
+ 0000:55B2       xmsg::~xmsg()
+ 0000:5602       xmsg::raise()
+ 0000:5668       xmsg::operator =(const xmsg near&)
+ 0000:5769       ___JumpToCatch__
+ 0000:5775       __set_debugger_callbacks(int,void(near*)(char near*,unsigned long),void(near*)(unsigned long),void(near*)(void far*),void(near*)(unsigned long),void(near*)(unsigned long))
+ 0000:57A4       typeidname(tpid far*)
+ 0000:65A0       _throwexception(void far*,void far*,void far*,void far*,unsigned int,unsigned int,unsigned int,unsigned char near*)
+ 0000:65F0       _rethrowexception(unsigned int,unsigned char near*)
+ 0000:6714       __Global_unwind
+ 0000:675F       _RaiseException
+ 0000:6D15       _catchcleanup()
+ 0000:731C       __Local_unwind
+ 0000:733C       __Return_unwind
+ 0000:73EF       __ExceptionHandler
+ 0000:80FE       __CurrExcContext
+ 0000:814E       __throwfilename()
+ 0000:815C       __throwlinenumber()
+ 0000:816A       __throwexceptionname()
+ 0000:8178       type_info::type_info(const type_info near&)
+ 0000:81D3       type_info::operator =(const type_info near&)
+ 0000:81DF       type_info::~type_info()
+ 0000:8207       type_info::operator ==(const type_info near&) const
+ 0000:822A       type_info::operator !=(const type_info near&) const
+ 0000:8244       type_info::before(const type_info near&) const
+ 0000:82A6       type_info::name() const
+ 0000:82BF       __gettypeinfo(void far*,void far*,void far*,void far*)
+ 0000:85AD       __dynamiccast(void far*,void far*,void far*,void far*,int)
+ 0000:87C4       __REALCVT
+ 0000:87C8       __scantod
+ 0000:87CC       __scanrslt
+ 0000:87D0       __scanpop
+ 0000:88EB       _setblock
+ 0000:8919       string::string(const string near&)
+ 0000:8A4C       string::string(const char near*)
+ 0000:8CAD       string::~string()
+ 0000:8D3F       string::assert_element(unsigned int) const
+ 0000:8E03       string::assert_index(unsigned int) const
+ 0000:8EC7       tsubstring::assert_element(unsigned int) const
+ 0000:8F5B       tstringref::tstringref(const char near*,unsigned int,const char near*,unsigned int,unsigned int)
+ 0000:900B       tstringref::~tstringref()
+ 0000:9064       tstringref::reserve(unsigned int)
+ 0000:90C7       tstringref::check_freeboard()
+ 0000:912C       tstringref::grow_to(unsigned int)
+ 0000:917E       tstringref::round_capacity(unsigned int)
+ 0000:91CB       tstringref::splice(unsigned int,unsigned int,const char near*,unsigned int)
+ 0000:930B       string::set_case_sensitive(int)
+ 0000:9328       string::set_paranoid_check(int)
+ 0000:9345       string::skip_whitespace(int)
+ 0000:9362       string::initial_capacity(unsigned int)
+ 0000:937F       string::resize_increment(unsigned int)
+ 0000:93A9       string::max_waste(unsigned int)
+ 0000:95E4       __fmemcmp
+ 0000:960C       __fmemcpy
+ 0000:9630       __fsetmem
+ 0000:9656       __fmemset
+ 0000:9678       __fstrcmp
+ 096B:2152       e086_Entry
+ 096B:26E0       e086_Shortcut
+ 0BE3:0306       e087_Entry
+ 0BE3:03C6       e087_Shortcut
+ 0BE3:0430       e087_Trap
+ 0C41:0000       DATASEG@
+ 0C41:006E       __Int0Vector
+ 0C41:0072       __Int4Vector
+ 0C41:0076       __Int5Vector
+ 0C41:007A       __Int6Vector
+ 0C41:007E       __C0argc
+ 0C41:0080       __C0argv
+ 0C41:0082       __C0environ
+ 0C41:0084       __envLng
+ 0C41:0086       __envseg
+ 0C41:0088       __envSize
+ 0C41:008A       __psp
+ 0C41:008C       __osversion
+ 0C41:008C       __osmajor
+ 0C41:008C       __version
+ 0C41:008D       __osminor
+ 0C41:008E       _errno
+ 0C41:0090       __Exception_list
+ 0C41:0092       ___heapbase
+ 0C41:0094       ___brklvl
+ 0C41:0096       __heapbase
+ 0C41:009A       __brklvl
+ 0C41:009E       __heaptop
+ 0C41:02B0       __8087
+ 0C41:02C0       __protected
+ 0C41:02C1       __LDT
+ 0C41:02C4       __default87
+ 0C41:02C6       __huge_flt
+ 0C41:02CA       __huge_dble
+ 0C41:02D2       __huge_ldble
+ 0C41:02DC       __indefinite
+ 0C41:02E0       __tiny_ldble
+ 0C41:02EA       __mathwhy
+ 0C41:0470       __emu
+ 0C41:05A0       __atexitcnt
+ 0C41:05A2       __exitbuf
+ 0C41:05A4       __exitfopen
+ 0C41:05A6       __exitopen
+ 0C41:05A8       __streams
+ 0C41:06E8       __nfile
+ 0C41:06EA       __openfd
+ 0C41:0712       __fmode
+ 0C41:0714       __notUmask
+ 0C41:0716       __fpstklen
+ 0C41:0718       __heaplen
+ 0C41:071A       __doserrno
+ 0C41:071C       __dosErrorToSV
+ 0C41:0780       ___xalloc
+ 0C41:0784       __new_handler
+ 0C41:0814       __stklen
+ 0C41:0816       __ctype
+ 0C41:0918       __localeconvention
+ 0C41:09A8       ___CPPexceptionList
+ 0C41:09AC       ___exceptFlags
+ 0C41:09AE       ___savedDS
+ 0C41:09B0       ___savedSI
+ 0C41:09B2       ___terminatePTR
+ 0C41:09B6       ___unexpectdPTR
+ 0C41:09BA       ___terminate_DS
+ 0C41:09BC       ___unexpectd_DS
+ 0C41:09BE       ___throwFileName
+ 0C41:09C0       ___throwLineNumber
+ 0C41:09C2       ___throwExceptionName
+ 0C41:09C4       ___exceptStaticBuffP
+ 0C41:09C6       ___exceptMemAllocVars
+ 0C41:09C8       __8086
+ 0C41:09CC       __first
+ 0C41:09CE       __last
+ 0C41:09D0       __rover
+ 0C41:09EE       __sys_errlist
+ 0C41:0A4E       __sys_nerr
+ 0C41:0CA8       __argc
+ 0C41:0CAA       __argv
+ 0C41:0CB6       string::case_sensitive
+ 0C41:0CB8       string::paranoid_check
+ 0C41:0CBA       string::skip_white
+ 0C41:0CBC       string::initial_capac
+ 0C41:0CBE       string::resize_inc
+ 0C41:0CC0       string::freeboard
+ 0C41:0D1C       __RealCvtVector
+ 0C41:0D20       __ScanTodVector
+ 0C41:0D56       _fbmp
+ 0C41:0D58       _fparam
+ 0C41:0D5A       _fentr
+ 0C41:0D5C       _cabeceraBMP
+ 0C41:0DE0       _Ventana
+ 0C41:0DE8       _NumPlanos
+ 0C41:0DEC       _LimitePlanos
+ 0C41:0DEE       _Piezas
+ 0C41:0E02       _anchoBMP
+ 0C41:0E06       _altoBMP
+ 0C41:0E0A       _dim
+ 0C41:0E0C       _nPEnt
+ 0C41:0E0E       _pEntr
+ 0C41:0E10       _V
+ 0C41:1E10       _contventana
+ 0C41:1E14       _yVen
+ 0C41:1E18       _xVen
+ 0C41:1E1C       __atexittbl
+ 0C41:1E6A       ___SignalPtr
+ 0C41:1E6C       __DestructorCountPtr
+ 0C41:1E6E       ___exceptionNameBuff
+ 0C41:1EEE       ___ExceptStaticXbuff
+
+Program entry point at 0000:0000
+

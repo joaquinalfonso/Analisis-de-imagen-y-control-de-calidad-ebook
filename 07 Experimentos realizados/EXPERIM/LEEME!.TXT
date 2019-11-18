@@ -1,0 +1,11 @@
+Este directorio contiene las bases de datos de patrones utilizados 
+en los experimentos realizados con losdiferentes programas.
+
+
+Tambien se incluyen las imagenes utilizadas para los mismos.
+
+
+En cada directorio de los programas clasificadores tambien aparece
+un subdirectorio EXPERIM que contiene los resultados obtenidos
+por esa version del programa clasificador.
+

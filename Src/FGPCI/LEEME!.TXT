@@ -1,0 +1,10 @@
+En estos directorios estan implementado los clasificadores 
+en sus versiones Euclidea y Mao implementados sobre las 
+2 tarjetas y utilizando los 3 DSP's
+
+	En la framegrabber se implementa el calculo del CM y en la
+PCI se realiza la clasificacion Euclidea o Mao de los patrones de
+salida de la primera.
+
+	fgpci <imagen.bmp> <parametros_CM> <patrones>
+

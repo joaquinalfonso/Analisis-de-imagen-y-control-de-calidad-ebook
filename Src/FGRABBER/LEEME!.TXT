@@ -1,0 +1,10 @@
+En estos directorios estan implementado los clasificadores 
+en sus versiones Euclidea y Mao implementados sobre la 
+tarjetas framegrabber.
+
+	En la framegrabber se implementa tanto el calculo del CM 
+como la clasificacion Euclidea o Mao de los patrones.
+
+Version Euclidea:   qpccmeuc <imagen.bmp> <parametros_CM> <patrones>
+Version Mao:        qpccmmao <imagen.bmp> <parametros_CM> <patrones>
+

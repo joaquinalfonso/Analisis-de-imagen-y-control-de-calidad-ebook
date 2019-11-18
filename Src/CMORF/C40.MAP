@@ -1,0 +1,228 @@
+*****************************************************
+TMS320C3x/4x COFF Linker        Version 4.70
+*****************************************************
+Fri May 28 12:23:37 1999
+
+OUTPUT FILE NAME:   <cmorf_d.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000cbf
+
+
+MEMORY CONFIGURATION
+
+           name     origin    length      used    attributes    fill
+         --------  --------  ---------  --------  ----------  --------
+         RAM0      002ff800  000000400  00000010     RWIX      
+         RAM1      002ffc00  000000400  00000400     RWIX      
+         LOCAL     40000000  000010000  00000000     RWIX      
+         GLOBAL    80000000  000020000  00000000     RWIX      
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.vector    0    40000000    00000000     UNINITIALIZED
+
+.text      0    00000000    00001008     
+                  00000000    00000b76     video.obj (.text)
+                  00000b76    00000000     rts40.lib : ctype.obj (.text)
+                  00000b76    00000149     cmorf_d.obj (.text)
+                  00000cbf    0000001b     rts40.lib : boot.obj (.text)
+                  00000cda    00000025               : divi.obj (.text)
+                  00000cff    00000033               : divu.obj (.text)
+                  00000d32    0000000a               : invf.obj (.text)
+                  00000d3c    00000022               : modi.obj (.text)
+                  00000d5e    0000002a               : modu.obj (.text)
+                  00000d88    00000024               : exit.obj (.text)
+                  00000dac    0000008f               : isxxx.obj (.text)
+                  00000e3b    000001c1               : memory.obj (.text)
+                  00000ffc    0000000c               : strlen.obj (.text)
+
+.cinit     0    00000000    00000ab3     
+                  00000000    0000098a     video.obj (.cinit)
+                  0000098a    00000012     cmorf_d.obj (.cinit)
+                  0000099c    00000006     rts40.lib : exit.obj (.cinit)
+                  000009a2    00000003               : isxxx.obj (.cinit)
+                  000009a5    0000000a               : memory.obj (.cinit)
+                  000009af    00000103               : ctype.obj (.cinit)
+                  00000ab2    00000001     --HOLE-- [fill = 00000000]
+
+.const     0    002ff800    00000010     
+                  002ff800    00000010     cmorf_d.obj (.const)
+
+.stack     0    002ffc00    00000200     UNINITIALIZED
+                  002ffc00    00000000     rts40.lib : boot.obj (.stack)
+
+.sysmem    0    002ffe00    00000200     UNINITIALIZED
+                  002ffe00    00000001     rts40.lib : memory.obj (.sysmem)
+
+.bss       0    00000000    00000b87     UNINITIALIZED
+                  00000000    00000955     video.obj (.bss)
+                  00000955    00000000     rts40.lib : strlen.obj (.bss)
+                  00000955    00000000               : modu.obj (.bss)
+                  00000955    00000000               : modi.obj (.bss)
+                  00000955    00000000               : invf.obj (.bss)
+                  00000955    00000000               : divu.obj (.bss)
+                  00000955    00000000               : divi.obj (.bss)
+                  00000955    00000000               : boot.obj (.bss)
+                  00000955    0000010a     cmorf_d.obj (.bss)
+                  00000a5f    00000022     rts40.lib : exit.obj (.bss)
+                  00000a81    00000001               : isxxx.obj (.bss)
+                  00000a82    00000004               : memory.obj (.bss)
+                  00000a86    00000101               : ctype.obj (.bss)
+
+.data      0    002ff800    00000000     UNINITIALIZED
+                  002ff800    00000000     video.obj (.data)
+                  002ff800    00000000     rts40.lib : ctype.obj (.data)
+                  002ff800    00000000               : strlen.obj (.data)
+                  002ff800    00000000               : memory.obj (.data)
+                  002ff800    00000000               : isxxx.obj (.data)
+                  002ff800    00000000               : exit.obj (.data)
+                  002ff800    00000000               : modu.obj (.data)
+                  002ff800    00000000               : modi.obj (.data)
+                  002ff800    00000000               : invf.obj (.data)
+                  002ff800    00000000               : divu.obj (.data)
+                  002ff800    00000000               : divi.obj (.data)
+                  002ff800    00000000               : boot.obj (.data)
+                  002ff800    00000000     cmorf_d.obj (.data)
+
+
+GLOBAL SYMBOLS
+
+address  name                             address  name
+-------- ----                             -------- ----
+00000000 .bss                             00000000 cinit
+002ff800 .data                            00000000 _video_setup
+00000000 .text                            00000000 _ccir_esync
+00000cda DIV_I40                          00000000 .bss
+00000cff DIV_U40                          00000000 .text
+00000d32 INV_F40                          00000040 _rs170_esync
+00000d3c MOD_I40                          00000054 _video_set_adc_lut_entry
+00000d5e MOD_U40                          00000061 _video_set_adc_lut
+00000b76 _CoeficienteMorfologico          00000078 _video_set_videomask
+00000200 __STACK_SIZE                     00000080 _ccir_isync
+00000200 __SYSMEM_SIZE                    00000082 _video_set_colourreg
+00000a86 __ctypes_                        0000008c _video_set_videomask_overlay
+002ffc00 __stack                          00000096 _video_set_colourreg_overlay
+002ffe00 __sys_memory                     000000a0 _video_set_dac_lut_entry
+00000da7 _abort                           000000b1 _video_set_dac_lut
+00000d95 _atexit                          000000c0 _rs170_isync
+00000fac _bmalloc                         000000d0 _video_set_dac_lut_overlay_entry
+00000955 _bufenteros                      000000e1 _video_set_dac_lut_overlay
+00000956 _bufflotantes                    000000ff _video_check_lock
+00000cbf _c_int00                         00000100 _charset
+00000ecc _calloc                          00000106 _video_wait_lock
+00000000 _ccir_esync                      0000013b _video_clear_int_line
+00000080 _ccir_isync                      00000141 _video_clear_int_field
+00000100 _charset                         00000147 _video_clear_ints
+00000d88 _exit                            00000150 _video_wait_line_event
+00000f50 _free                            00000155 _video_wait_field_event
+00000901 _g_col                           0000015a _video_get_field
+0000090f _g_line_inc                      0000015e _video_sync_on_component
+0000090e _g_pmask                         00000169 _video_sync_off_component
+00000900 _g_scrn_addr                     00000174 _video_pass_through
+00000903 _g_tbcol                         0000017e _video_capture_cont
+00000902 _g_tcol                          0000018a _video_display
+00000906 _g_x1                            00000194 _video_disable
+00000908 _g_x2                            000001a0 _video_grab
+00000904 _g_xc                            000001be _video_set_size
+0000090a _g_xm                            000001d1 _video_get_size
+0000090c _g_xs                            000001e0 _video_set_window
+00000907 _g_y1                            00000200 __SYSMEM_SIZE
+00000909 _g_y2                            00000200 __STACK_SIZE
+00000905 _g_yc                            00000209 _video_get_window
+0000090b _g_ym                            0000021e _video_set_screen_base
+0000090d _g_ys                            00000231 _video_get_screen_base
+000004d1 _hline                           00000233 _video_set_colour
+00000910 _iackloc_e                       0000023c _video_get_colour
+00000911 _iackloc_o                       0000023e _video_clear_screen
+00000dac _isalnum                         00000254 _video_clear_window
+00000db8 _isalpha                         0000027a _video_clear_overlay
+00000dc4 _isascii                         00000291 _video_clear_image
+00000dcf _iscntrl                         000002a8 _video_set_pixel
+00000ddb _isdigit                         000002be _video_get_pixel
+00000de7 _isgraph                         000003df _video_plot_line
+00000df3 _islower                         000004d1 _hline
+00000dff _isprint                         000004fb _video_circle_solid
+00000e0b _ispunct                         00000547 _video_circle
+00000e17 _isspace                         0000061a _video_rect_solid
+00000e23 _isupper                         00000653 _video_rect
+00000e2f _isxdigit                        0000067e _video_fill
+00000c0e _main                            00000797 _video_get_sprite_size
+00000e95 _malloc                          000007a1 _video_get_sprite
+00000e8e _minit                           000007d3 _video_put_sprite
+00000958 _paleta                          00000806 _video_home
+00000ee3 _realloc                         0000080b _video_set_text_colour
+00000040 _rs170_esync                     00000814 _video_get_text_colour
+000000c0 _rs170_isync                     00000816 _video_set_text_back_colour
+00000ffc _strlen                          0000081f _video_get_text_back_colour
+00000957 _turnoHOST                       00000821 _video_gotoxy
+0000017e _video_capture_cont              00000842 _video_getxy
+000000ff _video_check_lock                0000084f _video_set_text_scale
+000004fb _video_circle_solid              00000868 _video_get_text_scale
+00000547 _video_circle                    00000875 _video_outchar
+00000291 _video_clear_image               000008e3 _video_outtext
+00000141 _video_clear_int_field           00000900 _g_scrn_addr
+0000013b _video_clear_int_line            00000901 _g_col
+00000147 _video_clear_ints                00000902 _g_tcol
+0000027a _video_clear_overlay             00000903 _g_tbcol
+0000023e _video_clear_screen              00000904 _g_xc
+00000254 _video_clear_window              00000905 _g_yc
+00000937 _video_control_reg               00000906 _g_x1
+00000194 _video_disable                   00000907 _g_y1
+0000018a _video_display                   00000908 _g_x2
+0000067e _video_fill                      00000909 _g_y2
+0000023c _video_get_colour                0000090a _g_xm
+0000015a _video_get_field                 0000090b _g_ym
+000002be _video_get_pixel                 0000090c _g_xs
+00000231 _video_get_screen_base           0000090d _g_ys
+000001d1 _video_get_size                  0000090e _g_pmask
+00000797 _video_get_sprite_size           0000090f _g_line_inc
+000007a1 _video_get_sprite                00000910 _iackloc_e
+0000081f _video_get_text_back_colour      00000911 _iackloc_o
+00000814 _video_get_text_colour           00000937 _video_control_reg
+00000868 _video_get_text_scale            00000955 _bufenteros
+00000209 _video_get_window                00000956 _bufflotantes
+00000842 _video_getxy                     00000957 _turnoHOST
+00000821 _video_gotoxy                    00000958 _paleta
+000001a0 _video_grab                      00000a86 __ctypes_
+00000806 _video_home                      00000b65 _video_printf
+00000875 _video_outchar                   00000b76 _CoeficienteMorfologico
+000008e3 _video_outtext                   00000b87 end
+00000174 _video_pass_through              00000c0e _main
+000003df _video_plot_line                 00000cbf _c_int00
+00000b65 _video_printf                    00000cda DIV_I40
+000007d3 _video_put_sprite                00000cff DIV_U40
+00000653 _video_rect                      00000d32 INV_F40
+0000061a _video_rect_solid                00000d3c MOD_I40
+00000061 _video_set_adc_lut               00000d5e MOD_U40
+00000054 _video_set_adc_lut_entry         00000d88 _exit
+00000233 _video_set_colour                00000d95 _atexit
+00000096 _video_set_colourreg_overlay     00000da7 _abort
+00000082 _video_set_colourreg             00000dac _isalnum
+000000a0 _video_set_dac_lut_entry         00000db8 _isalpha
+000000d0 _video_set_dac_lut_overlay_entry 00000dc4 _isascii
+000000b1 _video_set_dac_lut               00000dcf _iscntrl
+000000e1 _video_set_dac_lut_overlay       00000ddb _isdigit
+000002a8 _video_set_pixel                 00000de7 _isgraph
+0000021e _video_set_screen_base           00000df3 _islower
+000001be _video_set_size                  00000dff _isprint
+00000816 _video_set_text_back_colour      00000e0b _ispunct
+0000080b _video_set_text_colour           00000e17 _isspace
+0000084f _video_set_text_scale            00000e23 _isupper
+0000008c _video_set_videomask_overlay     00000e2f _isxdigit
+00000078 _video_set_videomask             00000e8e _minit
+000001e0 _video_set_window                00000e95 _malloc
+00000000 _video_setup                     00000ecc _calloc
+00000169 _video_sync_off_component        00000ee3 _realloc
+0000015e _video_sync_on_component         00000f50 _free
+00000155 _video_wait_field_event          00000fac _bmalloc
+00000150 _video_wait_line_event           00000ffc _strlen
+00000106 _video_wait_lock                 00001008 etext
+00000000 cinit                            002ff800 .data
+002ff800 edata                            002ff800 edata
+00000b87 end                              002ffc00 __stack
+00001008 etext                            002ffe00 __sys_memory
+
+[132 symbols]

@@ -1,0 +1,10 @@
+
+
+Aplicacion para visualizar ficheros en formato PGM Greyscale
+(Capturados o no con el programa de captura de imagenes).
+
+Resolucion 800x600 256 tonos de gris.
+
+Compilado con Borland C v3.0 + Libreria SVGA(.bgi)
+
+

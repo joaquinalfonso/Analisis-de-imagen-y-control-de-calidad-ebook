@@ -1,0 +1,65 @@
+
+/*****************************************************************************/
+/*                CoeficienteMorfologico                                     */
+/*****************************************************************************/
+
+/*            vnorm=0.0;
+	    numPiezas = 0;
+	    for(pi=0;pi<MAX_PIEZAS;pi++)
+		if(pieza[pi])
+		    numPiezas++;
+
+	    for(pl=0;pl<numplanos;pl++) {
+		for(pi=0;pi<5;pi++)
+		    totalPiezas[pi] = 0;
+
+		for(pi=0;pi<MAX_PIEZAS;pi++) {
+		    if(pieza[pi]) {
+			for(Y=0;Y<yVen;Y+=(pi+1)) {
+			    for(X=0;X<xVen;X+=(pi+1)) {
+				for(y=0;y<(pi+1);y++)
+				{
+				    for(x=0;x<(pi+1);x++)
+				    {
+					if( (X+x) >= xVen || (Y+y) >= yVen)
+					    color = -1;
+					else
+					    color = imagen[Y+y][X+x];
+					cabe = (color > LimitePlano[pl]) && (color <= LimitePlano[pl+1]);
+					if(!cabe)
+					    break;
+				    }
+				    if(!cabe)
+					break;
+				}
+				if(cabe)
+				    totalPiezas[pi]++;
+			    }
+			}
+		    }
+		}
+		for(pi=1;pi<MAX_PIEZAS;pi++)
+		    totalPiezas[0] += totalPiezas[pi];
+
+		CM[pl] = (float)totalPiezas[0] / numPiezas;
+		vnorm += CM[pl]*CM[pl];
+
+	    }
+
+	    vnorm=sqrt(vnorm);
+	    for(k=0; k<numplanos; k++)
+		CM[k] = CM[k] / vnorm;
+
+	    for(k=0; k<numplanos; k++)
+		bufflotantes[k] = CM[k];
+
+	    (*semaforo1) = ROJO;
+
+	}
+
+    exit(0);
+}
+
+
+*/
+

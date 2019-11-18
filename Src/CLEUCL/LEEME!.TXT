@@ -1,0 +1,5 @@
+Este directorio contiene el programa CLDIST_H.exe que implementa el 
+clasificador por distancia euclidea para la tarjeta QPCC40S
+
+	uso cldist_h <fic_entrenamiento> <fic_test> 
+

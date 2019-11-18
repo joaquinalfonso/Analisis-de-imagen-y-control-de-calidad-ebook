@@ -1,0 +1,7 @@
+Este directorio contiene el programa que captura una imagen con
+la framegrabber y le calcula el coeficiente morfologico a toda
+la imagen
+
+        uso: cmorf_h <parametros_cm> <fic_salida>
+
+

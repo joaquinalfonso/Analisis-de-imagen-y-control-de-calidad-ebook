@@ -1,0 +1,16 @@
+En estos directorios estan implenmentados las versiones Euclidea y
+Mao de los programas de clasificacion sobre la tarjeta PCIC44
+
+En el perimer DSP? se realiza el calculo del CM y el en segundo 
+la clasificacion de los patrones obtenidos en el primero.
+
+Ademas cada una de las versiones estan implementadas con dos 
+protocolos de comunicacion diferentes, en el primero los DSP's
+trabajan de manera secuencial y el una segunda version se ha 
+implementado un protocolo que proporciona concurrencia entre 
+ambos procesadores. Mientras uno clasifica el otro calcula el 
+siguiente CM.
+
+Ver Euclidea:	pcicmeuc <imagen.bmp> <parametros_cm> <patrones>
+Ver Mao:	pcicmmao <imagen.bmp> <parametros_cm> <patrones>
+

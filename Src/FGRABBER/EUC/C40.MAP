@@ -1,0 +1,90 @@
+*****************************************************
+TMS320C3x/4x COFF Linker        Version 4.70
+*****************************************************
+Sat Jul 17 17:36:12 1999
+
+OUTPUT FILE NAME:   <primoc40.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 002ff831
+
+
+MEMORY CONFIGURATION
+
+           name     origin    length      used    attributes    fill
+         --------  --------  ---------  --------  ----------  --------
+         RAM0      002ff800  000000400  000000e9     RWIX      
+         RAM1      002ffc00  000000400  00000200     RWIX      
+         LOCAL     40000000  000010000  00000000     RWIX      
+         GLOBAL    80000000  000020000  00000000     RWIX      
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.vector    0    40000000    00000000     UNINITIALIZED
+
+.text      0    002ff800    000000b0     
+                  002ff800    00000031     primoc40.obj (.text)
+                  002ff831    00000000     rts40.lib : errno.obj (.text)
+                  002ff831    0000001b               : boot.obj (.text)
+                  002ff84c    0000002a               : modu.obj (.text)
+                  002ff876    00000016               : sqrt30.obj (.text)
+                  002ff88c    00000024               : exit.obj (.text)
+
+.cinit     0    002ff8b0    00000013     
+                  002ff8b0    00000009     primoc40.obj (.cinit)
+                  002ff8b9    00000003     rts40.lib : errno.obj (.cinit)
+                  002ff8bc    00000006               : exit.obj (.cinit)
+                  002ff8c2    00000001     --HOLE-- [fill = 00000000]
+
+.const     0    002ff800    00000000     UNINITIALIZED
+
+.stack     0    002ffc00    00000200     UNINITIALIZED
+                  002ffc00    00000000     rts40.lib : boot.obj (.stack)
+
+.sysmem    0    002ffc00    00000000     UNINITIALIZED
+
+.bss       0    002ff8c3    00000026     UNINITIALIZED
+                  002ff8c3    00000003     primoc40.obj (.bss)
+                  002ff8c6    00000000     rts40.lib : sqrt30.obj (.bss)
+                  002ff8c6    00000000               : modu.obj (.bss)
+                  002ff8c6    00000000               : boot.obj (.bss)
+                  002ff8c6    00000001               : errno.obj (.bss)
+                  002ff8c7    00000022               : exit.obj (.bss)
+
+.data      0    002ff800    00000000     UNINITIALIZED
+                  002ff800    00000000     primoc40.obj (.data)
+                  002ff800    00000000     rts40.lib : exit.obj (.data)
+                  002ff800    00000000               : errno.obj (.data)
+                  002ff800    00000000               : sqrt30.obj (.data)
+                  002ff800    00000000               : modu.obj (.data)
+                  002ff800    00000000               : boot.obj (.data)
+
+
+GLOBAL SYMBOLS
+
+address  name                             address  name
+-------- ----                             -------- ----
+002ff8c3 .bss                             00000200 __STACK_SIZE
+002ff800 .data                            002ff800 .data
+002ff800 .text                            002ff800 .text
+002ff84c MOD_U40                          002ff800 edata
+002ff8c3 _Buffer                          002ff800 _Primos
+002ff800 _Primos                          002ff81e _main
+002ff8c4 _Semaforo                        002ff831 _c_int00
+00000200 __STACK_SIZE                     002ff84c MOD_U40
+002ffc00 __stack                          002ff876 _sqrt
+002ff8ab _abort                           002ff88c _exit
+002ff899 _atexit                          002ff899 _atexit
+002ff831 _c_int00                         002ff8ab _abort
+002ff8c6 _errno                           002ff8b0 etext
+002ff88c _exit                            002ff8b0 cinit
+002ff81e _main                            002ff8c3 _Buffer
+002ff876 _sqrt                            002ff8c3 .bss
+002ff8b0 cinit                            002ff8c4 _Semaforo
+002ff800 edata                            002ff8c6 _errno
+002ff8e9 end                              002ff8e9 end
+002ff8b0 etext                            002ffc00 __stack
+
+[20 symbols]
