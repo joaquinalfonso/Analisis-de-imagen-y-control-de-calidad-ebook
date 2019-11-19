@@ -1,0 +1,5 @@
+Lo que se encuentra en este directorio, es un clasificador basado en distancia
+euclidea, y que se ejecuta integramente en la tarjeta PCI.
+
+Uso : pcieuclh <fich_entrenamiento> <fich_test>
+

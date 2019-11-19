@@ -1,0 +1,2 @@
+Imagenes PGM capturadas con la camara.
+

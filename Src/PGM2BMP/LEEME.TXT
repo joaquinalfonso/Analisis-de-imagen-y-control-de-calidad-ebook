@@ -1,0 +1,4 @@
+Conversor de imagenes PGM a formato BMP.
+
+Uso: pgm2bmp <fich_pgm> <fich_bmp>
+
