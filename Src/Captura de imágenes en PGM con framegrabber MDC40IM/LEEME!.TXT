@@ -1,4 +1,4 @@
 Programa de captura de imagenes y grabacion de las mismas
 en formato PGM con la tarjeta framegrabber MDC40IM
 
-Incluye programa VIsor para las imagenes en formato PGM
+Incluye programa Visor para las imagenes en formato PGM
